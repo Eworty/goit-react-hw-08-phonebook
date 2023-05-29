@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatar {
+  border-radius: 50%;
+  padding: 4px;
+  background-color: yellow;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  width: 288px;
+  padding: 30px 5px 30px 5px;
+  border: 3px solid black;
+  border-radius: 4px;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.buttons-bar {
+  display: flex;
+  justify-content: space-around;
+}
+
+button.disabled {
+  pointer-events: none;
+}

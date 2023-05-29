@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.username {
+  font-weight: 700;
+  text-align: center;
+}
+
+.btn-logout {
+  width: 80px;
+  flex-shrink: 0;
+}

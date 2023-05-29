@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  gap: 16px;
+  flex-direction: row;
+}
+
+.link {
+  display: inline-flex;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.link-active {
+  display: inline-flex;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: #ff0022;
+}
